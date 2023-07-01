@@ -1,0 +1,6 @@
+# INICIA UM CLUSTER EM UM MANAGER
+docker swarm init  - -advertise-addr...
+# INSERE NÓ NO CLUSTER
+docker swarm join --token...
+# MOSTRAR RELATORIO DO CLUSTER
+docker node list
